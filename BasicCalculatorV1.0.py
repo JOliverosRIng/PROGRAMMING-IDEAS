@@ -62,7 +62,7 @@ def calculatorLogic():
             elif choice == "d":
                 print(f"{a} / {b}")
                 a = div(a, b)
-                print(f"Result: {a}")
+                print(f"Result: {a:.5f}")
         elif choice == "e":
             print("Goodbye!")
             break  # Exit the loop
